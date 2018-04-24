@@ -2,7 +2,7 @@
 A jQuery code which can generate a responsive table of content for the webpage
 ###### It applies to all webpages
 The Table of content is in two designs: On the side of the page when screen size is big and on the top of the page for smaller screen
-You need a body container with id = "content-container" and a precontent container with id = "precontent" for it to work
+You need a body container with id = "content-container" (```<div id="content-container"```) and a precontent container with id = "precontent" (```<div id="precontent"```)for it to work
 Please add the anchor tag into the html under <div id="precontent"></div>
 Anchor tag: ```<div class="toc"> <div class="container-12"> <div class="grid-12"> </div> </div> </div>```
 

@@ -1,0 +1,123 @@
+#content-container {
+		width:100%;
+	}
+
+	.toc{
+		position:absolute;
+		right: 0;
+		padding-right:125px;
+		width: 12%;
+		min-width: 250px;
+		font-style: normal;
+		background-color: transparent;
+	}
+	.toc a {
+		text-transform: capitalize;
+	}
+	.toc h2 {
+		font-weight: bold;
+	}
+	.toc li{
+		display: block;
+		padding-left: 5px;
+		margin-top: 15px;
+		transition: all 1s;
+		-webkit-transition: all 1s;
+	}
+
+
+
+
+
+	.toc ul li{
+		list-style-type: none;
+		text-decoration: none;
+		display:block;
+		margin-left: 0;
+		width:250px;
+	}
+
+
+	/* share buttons */
+
+	.share-in-toc {
+		margin-top: 1.6em !important;
+		margin-left: 15px;
+	}
+
+	.share-in-toc a{
+		border-bottom: 0 !important;
+	}
+	.share-in-toc li {
+		display:inline !important;
+	}
+
+
+
+
+	/* for tablets etc - Qi Shu */
+	@media screen and (max-width: 1700px) {
+		#content-container {
+			width:100%;
+			float:none;
+		}
+
+		.toc {
+			margin-left: 0;
+			margin-top: 0;
+			float:none;
+			width: 100%;
+			padding-right:0;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			position: static;
+			background-color:#f6f6f6;
+		}
+
+		.toc h2{
+			padding-top: 0px;
+			padding-bottom: 5px;
+		}
+
+
+		.toc ul {
+			-webkit-column-count: 3; /* Chrome, Safari, Opera */
+			-moz-column-count: 3; /* Firefox */
+			column-count: 3;
+			-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+			-moz-column-gap: 40px; /* Firefox */
+			column-gap: 40px;
+			-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+			-moz-column-rule-style: solid; /* Firefox */
+			column-rule-style: solid;
+			-webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+			-moz-column-rule-width: 1px; /* Firefox */
+			column-rule-width: 1px;
+			-webkit-column-rule-color: black; /* Chrome, Safari, Opera */
+			-moz-column-rule-color: black; /* Firefox */
+			column-rule-color: black;
+		}
+
+
+		.toc ul li{
+			display:inline-block;
+		}
+	}
+
+		
+
+	@media screen and (max-width: 935px) {
+		.toc ul {
+			columns: 2;
+			display: block;
+			column-rule: 1px solid #cccccc;
+		}
+	}
+
+	@media screen and (max-width: 450px) {
+		.toc ul {
+			columns: 1;
+			display: block;
+			column-rule: 1px solid #cccccc;
+		}
+	}

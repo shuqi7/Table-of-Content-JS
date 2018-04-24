@@ -12,5 +12,6 @@ Please visit my website (http://qi-shu.xyz/) to view an example.
 
 Large Screen:
 ![alt text](http://i68.tinypic.com/2wh2ntt.png)
+
 Small Screen:
 ![alt text](http://i67.tinypic.com/2vtozuc.png)
